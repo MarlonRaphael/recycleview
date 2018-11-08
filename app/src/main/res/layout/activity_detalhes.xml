@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetalhesActivity">
+
+    <TextView
+        android:id="@+id/txtDetalhes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="CONTACT DETAILS"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtDetalhes"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="96dp"
+        android:text="Nome: "
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtFone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtDetalhes"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="148dp"
+        android:text="Telefone: "
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtDetalhes"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="214dp"
+        android:text="E-mail: "
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtEndereco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtDetalhes"
+        android:layout_centerVertical="true"
+        android:text="Endereço: "
+        android:textStyle="bold" />
+</RelativeLayout>
